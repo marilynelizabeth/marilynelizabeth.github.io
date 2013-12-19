@@ -149,35 +149,31 @@ textarea {
   }
   .content {
     background-color:#e8e7e4;
-
     background-repeat:repeat;
     background-attachment:scroll;
-    border-radius:12px;
-    width:817px;             /* 817px wide */
+    border-radius:120px;
+    width:817px;            
     min-height:600px;
     padding:12px 24px 18px;
   }
 
-
-  /* Navigation  ( screen: height >= 590px; width >= 988px ) */
   .nav {
     list-style-type:none;
     position:fixed;        
     left:50%;
-    top:22px;              
-    bottom:auto;           
+    top:0px;              
+    bottom:0px;           
     padding:0;
     margin:0 0 0 -484px;
-    box-shadow: 5px 0px 20px 1px rgba(0,0,0,0.6)
+    box-shadow: 5px 0px 20px 1px rgba(0,0,0,0.6);
   }
   .nav li {
     display:block;
-    width:137px;
+    width:300px;
     text-align:center;
     font-weight:100;
     font-size:18px;
     font-family:Verdana,sans-serif;
-    padding:0;
     margin:0;
   }
   .nav li + li {
